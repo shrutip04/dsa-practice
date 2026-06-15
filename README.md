@@ -29,9 +29,9 @@ Every problem is solved in **multiple approaches** — starting from brute force
 
 ## 📊 Stats
 
-| 🧩 Problems Solved | 📂 Topics | ⚡ Approaches Documented |
-|:-----------------:|:---------:|:------------------------:|
-| 4 | 7 | 12 |
+| 🧩 Problems Solved | 📂 Topics Active | ⚡ Approaches Documented |
+|:-----------------:|:----------------:|:------------------------:|
+| 10 | 2 | 25 |
 
 ---
 
@@ -39,13 +39,38 @@ Every problem is solved in **multiple approaches** — starting from brute force
 
 | Topic | Problems Solved | Status |
 |-------|:--------------:|--------|
-| Arrays | 4 | ✅ In Progress |
-| Hashing | 0 | 🔜 Upcoming |
+| Arrays | 6 | ✅ In Progress |
+| Hashing | 5 | ✅ In Progress |
 | Sliding Window | 0 | 🔜 Upcoming |
 | Binary Search | 0 | 🔜 Upcoming |
 | Stack | 0 | 🔜 Upcoming |
 | Linked List | 0 | 🔜 Upcoming |
 | Trees | 0 | 🔜 Upcoming |
+
+---
+
+## 🗃 Problems Index
+
+### 📁 Arrays — 6 Problems
+
+| # | Problem | Difficulty | Approaches | Key Technique |
+|---|---------|:----------:|:----------:|---------------|
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | 2 | Sliding Window / Kadane's |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | 3 | Reversal / Extra Array / Cyclic |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | 3 | Brute / Sort / Hash Set |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | 3 | Prefix-Suffix / Optimized |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | 2 | Floyd's Cycle / Binary Search |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | 2 | Brute / Hash Set |
+
+### 📁 Hashing — 5 Problems
+
+| # | Problem | Difficulty | Approaches | Key Technique |
+|---|---------|:----------:|:----------:|---------------|
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | 1 | Hash Set Tracking |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | 3 | Sort Key / Freq Count / Prime |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | 2 | Brute / Hash Set |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | 2 | Sort / Freq Map |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | 2 | Max Heap / Bucket Sort |
 
 ---
 
@@ -56,11 +81,9 @@ Every problem is solved in **multiple approaches** — starting from brute force
 ==================================================
 Problem: 217. Contains Duplicate
 LeetCode: Easy
-
 Approach 1: Brute Force     → O(n²) time, O(1) space
 Approach 2: Sorting         → O(n log n) time, O(1) space
 Approach 3: Hash Set        → O(n) time, O(n) space  ← Optimal
-
 Learning:
 - Brute force causes TLE on large inputs.
 - Sorting makes duplicates adjacent — cleaner check.
@@ -99,7 +122,18 @@ shruti@github:~/dsa-practice$ echo $GOAL
 
 ```
 📁 Arrays/
+   ├── 121_Best_Time_to_Buy_and_Sell_Stock.cpp
+   ├── 189_Rotate_Array.cpp
+   ├── 217_Contains_Duplicate.cpp
+   ├── 238_Product_of_Array_Except_Self.cpp
+   ├── 287_Find_the_Duplicate_Number.cpp
+   └── 128_Longest_Consecutive_Sequence.cpp
 📁 Hashing/
+   ├── 36_Valid_Sudoku.cpp
+   ├── 49_Group_Anagrams.cpp
+   ├── 128_Longest_Consecutive_Sequence.cpp
+   ├── 242_Valid_Anagram.cpp
+   └── 347_Top_K_Frequent_Elements.cpp
 📁 Sliding-Window/
 📁 Binary-Search/
 📁 Stack/
