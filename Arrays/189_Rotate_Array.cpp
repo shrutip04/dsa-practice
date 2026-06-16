@@ -70,17 +70,11 @@ Algorithm:
 4. Reverse remaining elements.
 
 Why It Works:
-
-[A B]
-
-Reverse All
-
+1. [A B]
+2. Reverse All
 [reverse(B) reverse(A)]
-
-Reverse Both Parts
-
+3. Reverse Both Parts
 [B A]
-
 which is the rotated array.
 
 ==================================================
